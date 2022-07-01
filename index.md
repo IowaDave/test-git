@@ -6,7 +6,7 @@
 <ul>
   {% for post in site.posts %}
     <li>
-      <h2><a href="{{ post.path }}{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ post.url | prepend: "/test-git" }}">{{ post.title }}</a></h2>
     </li>
   {% endfor %}
 </ul>
