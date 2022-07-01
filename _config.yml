@@ -4,4 +4,4 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Hey Howdy Hey
 description: Learning Github Pages
-baseurl: /test-git
+baseurl: /test-git/_posts
