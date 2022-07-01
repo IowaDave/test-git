@@ -1,5 +1,5 @@
 ---
-dgsmsg: whaddyknow
+dgsmsg: learn2live; live2learn
 ---
 
-<p>{{ page.dgsmsg }}</p>
+{{ page.dgsmsg }}
