@@ -7,8 +7,17 @@ This is my first post.
 <ul>
   {% for post in site.posts %}
     <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
+      <h2><a href="{{ post.url }}" 
+             
+        {% if post.title == page.title %}
+           style="color: black;"
+        {% endif %}>{{ post.title }}</a>
+        
+        {% if post.title == page.title %}
+          &nbsp; << You are here.
+        {% endif %}
+        
+      </h2>
     </li>
   {% endfor %}
 </ul>
